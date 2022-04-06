@@ -1,5 +1,11 @@
-<h2><%= params[:question] %> <br> -You</h2>
+<div class='card'>
+<p><%= params[:question].capitalize %></p>
+<p class='signature'> -You </p>
+</div>
 
-<h2><%= @answer %> <br> -Stupid coach</h2>
+<div class='card'>
+<p ><%= @answer %></p>
+<p class='signature'> -Stupid coach</p>
+</div>
 
 <a href=''><%= link_to 'Ask a new question', root_path %><a>

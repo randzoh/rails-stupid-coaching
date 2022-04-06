@@ -1,6 +1,4 @@
 class QuestionsController < ApplicationController
-  def ask
-  end
 
   def answer
     @questions = ['I am going to work', 'what time is it?']
