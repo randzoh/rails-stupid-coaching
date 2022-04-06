@@ -1,4 +1,8 @@
 <form action="/answer">
-  <input type="text" name="question" value="<%= params[:question] %>" placeholder="Ask here">
-  <input type="submit" value="Ask!">
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" name="question" value="<%= params[:question] %>" placeholder="Ask Something">
+    <div class="input-group-append">
+      <input type="submit" class="btn btn-primary btn-sm" value="Ask to Coach!">
+    </div>
+  </div>
 </form>
